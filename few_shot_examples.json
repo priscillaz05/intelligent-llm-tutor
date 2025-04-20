@@ -1,0 +1,80 @@
+[
+    {
+        "Coding Problem": "Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.",
+        "Ground Truth Solution": "class Solution:\n    def removeElement(self, nums: List[int], val: int) -> int:\n        k = 0  # Pointer to track valid elements\n        for i in range(len(nums)):\n            if nums[i] != val:\n                nums[k] = nums[i]  # Move valid element forward\n                k += 1\n        return k  # New length of array",
+        "LLM CoT Steps Breakdown": "Understanding Problem Constraints: Identify that the array must be modified in place. Recognize that the order of elements can be changed. Understand the need to return the count of elements that are not equal to the given value.\nIdentifying Potential Pitfalls: Consider edge cases such as an empty array or an array where all elements are the target value. Acknowledge issues related to pointer/index management during in-place modifications.\nSelecting an Algorithmic Strategy: Think about how a two-pointer approach might help iterate and reorganize the array. Determine how to count non-target elements as you modify the array.\nImplementing In-Place Modification: Explore how to overwrite or swap elements without additional storage. Focus on ensuring that each valid element is moved to the correct position.",
+        "LLM Questions": [
+            "What does it mean to modify the array in place, and why is this important for the problem?",
+            "How would you handle edge cases, such as when the array is empty or when every element is the target value?",
+            "What strategy might you consider to remove the target value without using extra memory?",
+            "How can you keep track of the number of non-target elements as you traverse the array?",
+            "Given that the order of elements can be changed, how might this simplify your solution?"
+        ],
+        "Expected Answers to LLM Questions": [
+            "It means updating the existing array without allocating extra space for another array, which is crucial for meeting the problem's in-place requirement.",
+            "If the array is empty, there’s nothing to remove, so the result should be 0. Similarly, if every element equals the target, all should be removed, resulting in a count of 0.",
+            "I could use a two-pointer technique where one pointer iterates through the array and the other pointer marks the next position to place a non-target element.",
+            "I can use the second pointer as a counter, incrementing it each time a non-target element is placed into the array.",
+            "Since order doesn't matter, I can swap target elements with the last element or overwrite them, which may reduce the number of moves needed and simplify the algorithm."
+        ]
+    },
+    {
+        "Coding Problem": "Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.",
+        "Ground Truth Solution": "class Solution:\n    def reverse (self, nums, i, j) : \n        li = i\n        ri = j\n        \n        while li < ri:\n            temp = nums[li]\n            nums[li] = nums[ri]\n            nums[ri] = temp\n            \n            li += 1\n            ri -= 1\n    def rotate(self, nums: List[int], k: int) -> None:\n        \"\"\"Do not return anything, modify nums in-place instead.\"\"\"\n        k = k % len(nums)\n        if k < 0 : \n            k += len(nums)\n        \n        self.reverse(nums, 0, len(nums) - k - 1)\n        self.reverse(nums, len(nums) - k, len(nums) - 1)\n        self.reverse(nums, 0, len(nums) - 1)",
+        "LLM CoT Steps Breakdown": "Understanding the Problem Requirements: Recognize that the task is to rotate the array to the right by k steps. Understand that \"rotating\" means shifting every element to the right with the last elements wrapping around to the front.\nHandling Special Conditions: Consider cases where k is greater than the length of the array by using modulo operations. Account for edge cases like an empty array or when k is 0.\nChoosing an In-Place Algorithm: Consider approaches such as the reversal algorithm that allows the rotation to be performed in-place with O(1) extra space. Evaluate the two-phase reversal process: reversing the entire array, then reversing the first k elements and the remaining elements separately.\nImplementation Considerations: Ensure proper index calculations when reversing parts of the array. Analyze the time and space complexity to ensure it meets the problem constraints.",
+        "LLM Questions": [
+            "What does it mean to rotate the array to the right by k steps, and what happens to the elements during this process?",
+            "If k is greater than the length of the array, what should you consider, and how can you adjust k accordingly?",
+            "Can you think of an in-place approach to perform the rotation without using extra space, and how does it work?",
+            "What edge cases should you handle, and how would they affect your solution?",
+            "While implementing the reversal algorithm, what challenges might you face with array indexing, and how can you address them?"
+        ],
+        "Expected Answers to LLM Questions": [
+            "Rotating the array to the right by k steps means moving every element in the array k positions to the right, and the elements at the end wrap around to the beginning of the array.",
+            "I should consider that rotating by more than the length of the array is redundant; therefore, I can use k modulo the array's length to determine the effective number of rotations needed.",
+            "One in-place approach is the reversal algorithm: first, reverse the entire array; then, reverse the first k elements and the remaining n-k elements separately to achieve the rotated array.",
+            "Edge cases include when the array is empty or when k is 0, in which case the array remains unchanged, so my solution should detect these cases and avoid unnecessary operations.",
+            "I might face challenges in correctly calculating the start and end indices for each reversal, especially ensuring that the boundaries for the subarrays (first k elements and remaining elements) are set correctly. Careful index management is essential to avoid errors."
+        ]
+    },
+    {
+        "Coding Problem": "Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.\n\nSymbol       Value\nI             1\nV             5\nX             10\nL             50\nC             100\nD             500\nM             1000\n\nFor example, 2 is written as II in Roman numeral, just two ones added together. 12 is written as XII, which is simply X + II. The number 27 is written as XXVII, which is XX + V + II.\n\nRoman numerals are usually written largest to smallest from left to right. However, the numeral for four is not IIII. Instead, the number four is written as IV. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written as IX. There are six instances where subtraction is used:\n\nI can be placed before V (5) and X (10) to make 4 and 9.\nX can be placed before L (50) and C (100) to make 40 and 90.\nC can be placed before D (500) and M (1000) to make 400 and 900.\n\nGiven a roman numeral, convert it to an integer.",
+        "Ground Truth Solution": "class Solution:\n    def romanToInt(self, s: str) -> int:\n        roman_to_int = {\n            'I': 1, 'V': 5, 'X': 10, 'L': 50,\n            'C': 100, 'D': 500, 'M': 1000\n        }\n        result = 0\n        for i in range(len(s)):\n            if i + 1 < len(s) and roman_to_int[s[i]] < roman_to_int[s[i + 1]]:\n                result -= roman_to_int[s[i]]\n            else:\n                result += roman_to_int[s[i]]\n        return result",
+        "LLM CoT Steps Breakdown": "Identify the Roman Symbols and Their Values: Recognize the seven symbols: I, V, X, L, C, D, and M and their corresponding values.\nUnderstand the Subtractive Principle: Know that when a smaller numeral precedes a larger numeral (e.g., IV or IX), the smaller numeral's value should be subtracted rather than added.\nIterate Through the Roman Numeral: Process the string character by character. Compare each numeral with the next one to decide whether to add or subtract its value.\nHandle Boundary Conditions: Ensure that the algorithm correctly processes the last numeral, where no next numeral is available. Consider potential edge cases such as an empty string or a string with a single numeral.\nAccumulate the Total: Use a running total to sum up the values by adding or subtracting based on the rules.",
+        "LLM Questions": [
+            "What are the seven Roman numeral symbols and what values do they represent?",
+            "How do you decide whether to add or subtract the value of a numeral when converting a Roman numeral to an integer?",
+            "Can you give an example of subtractive notation and explain why it is used?",
+            "When processing the Roman numeral string, what should you do when you reach the last character?",
+            "How would you outline an algorithm to convert a Roman numeral string into an integer?",
+            "Are there any edge cases you need to consider when converting a Roman numeral to an integer?"
+        ],
+        "Expected Answers to LLM Questions": [
+            "The symbols are I (1), V (5), X (10), L (50), C (100), D (500), and M (1000).",
+            "If a numeral is less than the numeral that follows it, its value should be subtracted; otherwise, it should be added.",
+            "For example, the numeral IV represents 4 because I (1) comes before V (5), so we subtract 1 from 5. This method is used to avoid four consecutive identical symbols.",
+            "Since there is no numeral after the last character, you simply add its value to the total.",
+            "I would iterate through the string, and for each character, check if it is less than the next character. If it is, subtract its value; if not, add its value to a running total. Finally, return the total as the integer value.",
+            "Yes, I need to consider cases such as an empty string, a string with only one numeral, or even improperly formed Roman numerals, although the problem may assume valid inputs."
+        ]
+    },
+    {
+        "Coding Problem": "Given a string s consisting of words and spaces, return the length of the last word in the string. A word is a maximal substring consisting of non-space characters only.",
+        "Ground Truth Solution": "class Solution:\n    def lengthOfLastWord(self, s: str) -> int:\n        words = s.strip().split()\n        \n        if not words:\n            return 0\n        \n        return len(words[-1])",
+        "LLM CoT Steps Breakdown": "Understanding the Problem: Recognize that the task is to return the length of the last word in a given string. Understand that a word is defined as a maximal substring of non-space characters.\nHandling Trailing Spaces and Multiple Spaces: Consider that the string may have trailing spaces which should be ignored. Identify that multiple consecutive spaces might appear between words.\nApproaches to Solve the Problem: One approach is to split the string by spaces and then filter out any empty strings before taking the last word. An alternative approach is to iterate from the end of the string, count the characters until you encounter a space or the start of the string.\nEdge Case Considerations: Consider the scenario where the string is empty or consists solely of spaces. Think about what should be returned if there is no valid word.",
+        "LLM Questions": [
+            "What is the definition of a 'word' in the context of this problem?",
+            "How would you handle a string with trailing spaces when trying to determine the length of the last word?",
+            "What are two possible approaches you could use to find the length of the last word in the string?",
+            "Can you identify some edge cases for this problem, and how might they affect your solution?",
+            "What potential challenges might you encounter when implementing the solution, and how would you address them?"
+        ],
+        "Expected Answers to LLM Questions": [
+            "A word is defined as a maximal substring of non-space characters.",
+            "I would ignore the trailing spaces by either trimming the string or by iterating from the end and skipping any spaces until I find a non-space character.",
+            "One approach is to split the string by spaces, filter out any empty elements, and then measure the length of the last element. Another approach is to traverse the string from the end and count characters until a space is encountered.",
+            "Edge cases include an empty string or a string that contains only spaces. In these cases, there is no last word, and the solution should return 0.",
+            "Challenges include managing extra spaces (especially trailing spaces) and ensuring that the logic correctly handles cases where there are no words. I would address these by carefully skipping spaces at the end and verifying that a valid word is found before counting its length."
+        ]
+    }
+]

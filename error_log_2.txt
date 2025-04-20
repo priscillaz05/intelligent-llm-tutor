@@ -1,0 +1,505 @@
+2025-04-08 09:04:58.975686: Error processing sample 0: list index out of range
+2025-04-08 09:05:17.328233: Error processing sample 2: list index out of range
+2025-04-08 09:06:26.603605: Error processing sample 9: list index out of range
+2025-04-08 09:06:43.825968: Error processing sample 11: list index out of range
+2025-04-08 09:08:14.108802: Error processing sample 19: list index out of range
+2025-04-08 09:08:31.277154: Error processing sample 21: list index out of range
+2025-04-08 09:08:44.696803: Error processing sample 23: list index out of range
+2025-04-08 09:09:55.641558: Error processing sample 29: list index out of range
+2025-04-08 09:10:17.516553: Error processing sample 32: list index out of range
+2025-04-08 09:10:48.708789: Error processing sample 36: list index out of range
+2025-04-08 09:10:52.710505: Error processing sample 37: list index out of range
+2025-04-08 09:13:43.388214: Error processing sample 54: list index out of range
+2025-04-08 09:15:55.619373: Error processing sample 67: list index out of range
+2025-04-08 09:16:11.033617: Error processing sample 69: list index out of range
+2025-04-08 09:16:15.035489: Error processing sample 70: list index out of range
+2025-04-08 09:17:20.868772: Error processing sample 76: list index out of range
+2025-04-08 09:17:51.280058: Error processing sample 79: list index out of range
+2025-04-08 09:19:01.539016: Error processing sample 86: list index out of range
+2025-04-08 09:19:35.832684: Error processing sample 90: list index out of range
+2025-04-08 09:20:54.383810: Error processing sample 98: list index out of range
+2025-04-08 09:21:09.831802: Error processing sample 100: list index out of range
+2025-04-08 09:22:55.804818: Error processing sample 110: list index out of range
+2025-04-08 09:24:54.405086: Error processing sample 120: list index out of range
+2025-04-08 09:25:09.217155: Error processing sample 122: list index out of range
+2025-04-08 09:25:13.219910: Error processing sample 123: list index out of range
+2025-04-08 09:25:27.628397: Error processing sample 125: list index out of range
+2025-04-08 09:25:31.630615: Error processing sample 126: list index out of range
+2025-04-08 09:25:55.052583: Error processing sample 129: list index out of range
+2025-04-08 09:27:39.022879: Error processing sample 139: list index out of range
+2025-04-08 09:27:54.379840: Error processing sample 141: list index out of range
+2025-04-08 09:28:38.807503: Error processing sample 146: list index out of range
+2025-04-08 09:28:54.122957: Error processing sample 148: list index out of range
+2025-04-08 09:30:31.977875: Error processing sample 157: list index out of range
+2025-04-08 09:32:24.422761: Error processing sample 167: list index out of range
+2025-04-08 09:32:45.066058: Error processing sample 170: list index out of range
+2025-04-08 09:33:23.121799: Error processing sample 174: list index out of range
+2025-04-08 09:34:08.947817: Error processing sample 179: list index out of range
+2025-04-08 09:34:48.641117: Error processing sample 183: list index out of range
+2025-04-08 09:34:52.642769: Error processing sample 184: list index out of range
+2025-04-08 09:35:09.424584: Error processing sample 186: list index out of range
+2025-04-08 09:35:27.265967: Error processing sample 188: list index out of range
+2025-04-08 09:35:31.267728: Error processing sample 189: list index out of range
+2025-04-08 09:36:31.852245: Error processing sample 196: list index out of range
+2025-04-08 09:37:11.376735: Error processing sample 200: list index out of range
+2025-04-08 09:38:18.774640: Error processing sample 207: list index out of range
+2025-04-08 09:42:40.787059: Error processing sample 232: list index out of range
+2025-04-08 09:44:04.349106: Error processing sample 241: list index out of range
+2025-04-08 09:44:08.351505: Error processing sample 242: list index out of range
+2025-04-08 09:44:21.603971: Error processing sample 244: list index out of range
+2025-04-08 09:44:44.593182: Error processing sample 247: list index out of range
+2025-04-08 09:44:48.598931: Error processing sample 248: list index out of range
+2025-04-08 09:45:59.805068: Error processing sample 255: list index out of range
+2025-04-08 09:47:41.428807: Error processing sample 264: list index out of range
+2025-04-08 09:48:44.171864: Error processing sample 271: list index out of range
+2025-04-08 09:48:48.173195: Error processing sample 272: list index out of range
+2025-04-08 09:49:06.031220: Error processing sample 274: list index out of range
+2025-04-08 09:50:43.205367: Error processing sample 283: list index out of range
+2025-04-08 09:51:08.071574: Error processing sample 286: list index out of range
+2025-04-08 09:51:49.664885: Error processing sample 290: list index out of range
+2025-04-08 09:52:30.619662: Error processing sample 294: list index out of range
+2025-04-08 09:52:56.239888: Error processing sample 297: list index out of range
+2025-04-08 09:53:34.491007: Error processing sample 301: list index out of range
+2025-04-08 09:54:29.517538: Error processing sample 307: list index out of range
+2025-04-08 09:56:31.898676: Error processing sample 319: list index out of range
+2025-04-08 09:56:47.371056: Error processing sample 321: list index out of range
+2025-04-08 09:56:51.378427: Error processing sample 322: list index out of range
+2025-04-08 09:57:27.311893: Error processing sample 326: list index out of range
+2025-04-08 09:57:47.847383: Error processing sample 328: list index out of range
+2025-04-08 09:58:32.984820: Error processing sample 333: list index out of range
+2025-04-08 09:58:54.483920: Error processing sample 336: list index out of range
+2025-04-08 09:59:36.416217: Error processing sample 340: list index out of range
+2025-04-08 09:59:40.423967: Error processing sample 341: list index out of range
+2025-04-08 09:59:44.430790: Error processing sample 342: list index out of range
+2025-04-08 10:00:14.114399: Error processing sample 346: list index out of range
+2025-04-08 10:00:59.643502: Error processing sample 351: list index out of range
+2025-04-08 10:02:01.358625: Error processing sample 357: list index out of range
+2025-04-08 10:02:33.481606: Error processing sample 361: list index out of range
+2025-04-08 10:02:37.483676: Error processing sample 362: list index out of range
+2025-04-08 10:03:55.362071: Error processing sample 369: list index out of range
+2025-04-08 10:03:59.370304: Error processing sample 370: list index out of range
+2025-04-08 10:04:24.483910: Error processing sample 373: list index out of range
+2025-04-08 10:05:25.305512: Error processing sample 380: list index out of range
+2025-04-08 10:06:42.932348: Error processing sample 385: list index out of range
+2025-04-08 10:06:46.933991: Error processing sample 386: list index out of range
+2025-04-08 10:08:16.702020: Error processing sample 394: list index out of range
+2025-04-08 10:08:32.128704: Error processing sample 396: list index out of range
+2025-04-08 10:11:39.230346: Error processing sample 414: list index out of range
+2025-04-08 10:11:53.961491: Error processing sample 416: list index out of range
+2025-04-08 10:11:57.963202: Error processing sample 417: list index out of range
+2025-04-08 10:12:26.133452: Error processing sample 420: list index out of range
+2025-04-08 10:14:26.632975: Error processing sample 430: list index out of range
+2025-04-08 10:14:30.634547: Error processing sample 431: list index out of range
+2025-04-08 10:14:34.636633: Error processing sample 432: list index out of range
+2025-04-08 10:14:59.369897: Error processing sample 435: list index out of range
+2025-04-08 10:15:44.471826: Error processing sample 440: list index out of range
+2025-04-08 10:16:29.140208: Error processing sample 445: list index out of range
+2025-04-08 10:17:02.518882: Error processing sample 448: list index out of range
+2025-04-08 10:18:00.520177: Error processing sample 454: list index out of range
+2025-04-08 10:18:13.418306: Error processing sample 456: list index out of range
+2025-04-08 10:18:47.138589: Error processing sample 460: list index out of range
+2025-04-08 10:19:04.959345: Error processing sample 462: list index out of range
+2025-04-08 10:19:08.960815: Error processing sample 463: list index out of range
+2025-04-08 10:19:22.377172: Error processing sample 465: list index out of range
+2025-04-08 10:19:35.047182: Error processing sample 467: list index out of range
+2025-04-08 10:20:02.401131: Error processing sample 470: list index out of range
+2025-04-08 10:20:31.254114: Error processing sample 474: list index out of range
+2025-04-08 10:21:24.285717: Error processing sample 480: list index out of range
+2025-04-08 10:21:28.287504: Error processing sample 481: list index out of range
+2025-04-08 10:21:32.289135: Error processing sample 482: list index out of range
+2025-04-08 10:21:59.266702: Error processing sample 485: list index out of range
+2025-04-08 10:22:50.613567: Error processing sample 490: list index out of range
+2025-04-08 10:24:12.086072: Error processing sample 497: list index out of range
+2025-04-08 10:25:36.257494: Error processing sample 504: list index out of range
+2025-04-08 10:25:40.260725: Error processing sample 505: list index out of range
+2025-04-08 10:25:53.789331: Error processing sample 507: list index out of range
+2025-04-08 10:25:57.790751: Error processing sample 508: list index out of range
+2025-04-08 10:26:10.674080: Error processing sample 510: list index out of range
+2025-04-08 10:27:03.005511: Error processing sample 516: list index out of range
+2025-04-08 10:28:13.969400: Error processing sample 524: list index out of range
+2025-04-08 10:30:11.842105: Error processing sample 535: list index out of range
+2025-04-08 10:30:27.865832: Error processing sample 537: list index out of range
+2025-04-08 10:30:44.237354: Error processing sample 539: list index out of range
+2025-04-08 10:32:38.184542: Error processing sample 549: list index out of range
+2025-04-08 10:33:11.263499: Error processing sample 553: list index out of range
+2025-04-08 10:34:36.822548: Error processing sample 562: list index out of range
+2025-04-08 10:34:48.719114: Error processing sample 564: list index out of range
+2025-04-08 10:35:51.235740: Error processing sample 571: list index out of range
+2025-04-08 10:36:04.212730: Error processing sample 573: list index out of range
+2025-04-08 10:36:42.703816: Error processing sample 577: list index out of range
+2025-04-08 10:36:46.706016: Error processing sample 578: list index out of range
+2025-04-08 10:37:01.162006: Error processing sample 580: list index out of range
+2025-04-08 10:37:22.671514: Error processing sample 583: list index out of range
+2025-04-08 10:38:56.246621: Error processing sample 592: list index out of range
+2025-04-08 10:39:11.010970: Error processing sample 594: list index out of range
+2025-04-08 10:40:47.303218: Error processing sample 603: list index out of range
+2025-04-08 10:41:35.281655: Error processing sample 608: list index out of range
+2025-04-08 10:41:39.283660: Error processing sample 609: list index out of range
+2025-04-08 10:43:12.289293: Error processing sample 618: list index out of range
+2025-04-08 10:44:00.526550: Error processing sample 623: list index out of range
+2025-04-08 10:44:04.529047: Error processing sample 624: list index out of range
+2025-04-08 10:46:06.736903: Error processing sample 636: list index out of range
+2025-04-08 10:46:31.003119: Error processing sample 639: list index out of range
+2025-04-08 10:46:40.938094: Error processing sample 641: list index out of range
+2025-04-08 10:46:44.939813: Error processing sample 642: list index out of range
+2025-04-08 10:46:56.690554: Error processing sample 644: list index out of range
+2025-04-08 10:48:09.765716: Error processing sample 651: list index out of range
+2025-04-08 10:48:13.767206: Error processing sample 652: list index out of range
+2025-04-08 10:49:40.595931: Error processing sample 662: list index out of range
+2025-04-08 10:49:55.713877: Error processing sample 664: list index out of range
+2025-04-08 10:50:13.279885: Error processing sample 666: list index out of range
+2025-04-08 10:50:27.625860: Error processing sample 668: list index out of range
+2025-04-08 10:50:44.385594: Error processing sample 670: list index out of range
+2025-04-08 10:52:08.125543: Error processing sample 676: list index out of range
+2025-04-08 10:52:23.391236: Error processing sample 678: list index out of range
+2025-04-08 10:52:27.392492: Error processing sample 679: list index out of range
+2025-04-08 10:52:42.072620: Error processing sample 681: list index out of range
+2025-04-08 10:53:23.449114: Error processing sample 685: list index out of range
+2025-04-08 10:54:09.642939: Error processing sample 690: list index out of range
+2025-04-08 10:54:36.642393: Error processing sample 693: list index out of range
+2025-04-08 10:55:21.726126: Error processing sample 698: list index out of range
+2025-04-08 10:58:34.621747: Error processing sample 716: list index out of range
+2025-04-08 10:59:11.044461: Error processing sample 720: list index out of range
+2025-04-08 10:59:47.415964: Error processing sample 724: list index out of range
+2025-04-08 11:00:02.017215: Error processing sample 726: list index out of range
+2025-04-08 11:01:19.984238: Error processing sample 733: list index out of range
+2025-04-08 11:01:55.674892: Error processing sample 737: list index out of range
+2025-04-08 11:01:59.676537: Error processing sample 738: list index out of range
+2025-04-08 11:02:24.238762: Error processing sample 741: list index out of range
+2025-04-08 11:03:12.498153: Error processing sample 746: list index out of range
+2025-04-08 11:03:24.792281: Error processing sample 748: list index out of range
+2025-04-08 11:04:27.331946: Error processing sample 754: list index out of range
+2025-04-08 11:05:05.520192: Error processing sample 758: list index out of range
+2025-04-08 11:06:48.147965: Error processing sample 768: list index out of range
+2025-04-08 11:06:52.149912: Error processing sample 769: list index out of range
+2025-04-08 11:10:12.392218: Error processing sample 790: list index out of range
+2025-04-08 11:10:53.777197: Error processing sample 794: list index out of range
+2025-04-08 11:11:09.574636: Error processing sample 796: list index out of range
+2025-04-08 11:11:39.856572: Error processing sample 799: list index out of range
+2025-04-08 11:11:43.857968: Error processing sample 800: list index out of range
+2025-04-08 11:11:47.859096: Error processing sample 801: list index out of range
+2025-04-08 11:12:56.793963: Error processing sample 806: list index out of range
+2025-04-08 11:13:00.795488: Error processing sample 807: list index out of range
+2025-04-08 11:13:18.233725: Error processing sample 809: list index out of range
+2025-04-08 11:13:22.235063: Error processing sample 810: list index out of range
+2025-04-08 11:13:36.749780: Error processing sample 812: list index out of range
+2025-04-08 11:15:08.771023: Error processing sample 821: list index out of range
+2025-04-08 11:17:08.737220: Error processing sample 833: list index out of range
+2025-04-08 11:20:16.300058: Error processing sample 851: list index out of range
+2025-04-08 11:20:20.301829: Error processing sample 852: list index out of range
+2025-04-08 11:20:24.303947: Error processing sample 853: list index out of range
+2025-04-08 11:22:21.367810: Error processing sample 863: list index out of range
+2025-04-08 11:22:34.398195: Error processing sample 865: list index out of range
+2025-04-08 11:23:00.151752: Error processing sample 868: list index out of range
+2025-04-08 11:23:04.153300: Error processing sample 869: list index out of range
+2025-04-08 11:25:38.717847: Error processing sample 885: list index out of range
+2025-04-08 11:25:42.719437: Error processing sample 886: list index out of range
+2025-04-08 11:26:49.063032: Error processing sample 892: list index out of range
+2025-04-08 11:27:11.959846: Error processing sample 895: list index out of range
+2025-04-08 11:28:07.127334: Error processing sample 900: list index out of range
+2025-04-08 11:28:11.129526: Error processing sample 901: list index out of range
+2025-04-08 11:28:25.305999: Error processing sample 903: list index out of range
+2025-04-08 11:29:22.131450: Error processing sample 909: list index out of range
+2025-04-08 11:30:29.813628: Error processing sample 916: list index out of range
+2025-04-08 11:31:31.744929: Error processing sample 922: list index out of range
+2025-04-08 11:32:01.395814: Error processing sample 925: list index out of range
+2025-04-08 11:32:39.862247: Error processing sample 929: list index out of range
+2025-04-08 11:34:47.611587: Error processing sample 942: list index out of range
+2025-04-08 11:35:15.946275: Error processing sample 945: list index out of range
+2025-04-08 11:36:32.061098: Error processing sample 953: list index out of range
+2025-04-08 11:36:36.063086: Error processing sample 954: list index out of range
+2025-04-08 11:37:31.436369: Error processing sample 960: list index out of range
+2025-04-08 11:40:09.360744: Error processing sample 974: list index out of range
+2025-04-08 11:42:24.355059: Error processing sample 987: list index out of range
+2025-04-08 11:43:19.276001: Error processing sample 993: list index out of range
+2025-04-08 11:44:00.660783: Error processing sample 997: list index out of range
+2025-04-08 11:44:04.662484: Error processing sample 998: list index out of range
+2025-04-08 11:44:08.664709: Error processing sample 999: list index out of range
+2025-04-08 11:44:12.683609: Error processing sample 1000: list index out of range
+2025-04-08 11:45:13.169797: Error processing sample 1006: list index out of range
+2025-04-08 11:45:44.493936: Error processing sample 1009: list index out of range
+2025-04-08 11:46:06.903489: Error processing sample 1012: list index out of range
+2025-04-08 11:47:25.945341: Error processing sample 1020: list index out of range
+2025-04-08 11:47:40.276696: Error processing sample 1022: list index out of range
+2025-04-08 11:48:52.090303: Error processing sample 1029: list index out of range
+2025-04-08 11:50:06.080192: Error processing sample 1036: list index out of range
+2025-04-08 11:50:41.210959: Error processing sample 1040: list index out of range
+2025-04-08 11:52:01.511579: Error processing sample 1047: list index out of range
+2025-04-08 11:52:29.205091: Error processing sample 1050: list index out of range
+2025-04-08 11:54:09.165531: Error processing sample 1060: list index out of range
+2025-04-08 11:54:24.041421: Error processing sample 1062: list index out of range
+2025-04-08 11:54:41.372502: Error processing sample 1064: list index out of range
+2025-04-08 11:55:22.960250: Error processing sample 1068: list index out of range
+2025-04-08 11:56:24.449294: Error processing sample 1074: list index out of range
+2025-04-08 11:56:42.284452: Error processing sample 1076: list index out of range
+2025-04-08 11:56:46.286445: Error processing sample 1077: list index out of range
+2025-04-08 11:56:50.288052: Error processing sample 1078: list index out of range
+2025-04-08 11:57:18.350930: Error processing sample 1081: list index out of range
+2025-04-08 11:57:35.813235: Error processing sample 1083: list index out of range
+2025-04-08 11:57:39.832048: Error processing sample 1084: list index out of range
+2025-04-08 11:57:43.833846: Error processing sample 1085: list index out of range
+2025-04-08 11:57:47.862708: Error processing sample 1086: list index out of range
+2025-04-08 11:58:26.924774: Error processing sample 1089: list index out of range
+2025-04-08 11:58:30.926402: Error processing sample 1090: list index out of range
+2025-04-08 11:58:51.296988: Error processing sample 1093: list index out of range
+2025-04-08 11:59:26.424942: Error processing sample 1097: list index out of range
+2025-04-08 11:59:30.441577: Error processing sample 1098: list index out of range
+2025-04-08 12:01:23.897041: Error processing sample 1109: list index out of range
+2025-04-08 12:01:49.278010: Error processing sample 1112: list index out of range
+2025-04-08 12:02:31.678159: Error processing sample 1116: list index out of range
+2025-04-08 12:02:35.682111: Error processing sample 1117: list index out of range
+2025-04-08 12:02:58.475612: Error processing sample 1119: list index out of range
+2025-04-08 12:03:28.208757: Error processing sample 1122: list index out of range
+2025-04-08 12:04:32.370009: Error processing sample 1128: list index out of range
+2025-04-08 12:07:55.333517: Error processing sample 1148: list index out of range
+2025-04-08 12:08:08.640641: Error processing sample 1150: list index out of range
+2025-04-08 12:08:20.100533: Error processing sample 1152: list index out of range
+2025-04-08 12:08:24.115328: Error processing sample 1153: list index out of range
+2025-04-08 12:08:28.117031: Error processing sample 1154: list index out of range
+2025-04-08 12:09:25.566902: Error processing sample 1160: list index out of range
+2025-04-08 12:09:29.568401: Error processing sample 1161: list index out of range
+2025-04-08 12:10:21.524637: Error processing sample 1166: list index out of range
+2025-04-08 12:11:03.346475: Error processing sample 1170: list index out of range
+2025-04-08 12:12:54.860909: Error processing sample 1180: list index out of range
+2025-04-08 12:13:43.508638: Error processing sample 1185: list index out of range
+2025-04-08 12:13:47.510071: Error processing sample 1186: list index out of range
+2025-04-08 12:13:59.869183: Error processing sample 1188: list index out of range
+2025-04-08 12:14:39.342921: Error processing sample 1192: list index out of range
+2025-04-08 12:15:31.052950: Error processing sample 1198: list index out of range
+2025-04-08 12:15:58.885601: Error processing sample 1201: list index out of range
+2025-04-08 12:16:02.887604: Error processing sample 1202: list index out of range
+2025-04-08 12:16:06.889370: Error processing sample 1203: list index out of range
+2025-04-08 12:16:48.171115: Error processing sample 1207: list index out of range
+2025-04-08 12:17:19.862321: Error processing sample 1210: list index out of range
+2025-04-08 12:18:00.167329: Error processing sample 1214: list index out of range
+2025-04-08 12:18:36.978190: Error processing sample 1218: list index out of range
+2025-04-08 12:18:48.074068: Error processing sample 1220: list index out of range
+2025-04-08 12:18:52.095685: Error processing sample 1221: list index out of range
+2025-04-08 12:19:45.858584: Error processing sample 1226: list index out of range
+2025-04-08 12:20:36.338858: Error processing sample 1231: list index out of range
+2025-04-08 12:20:40.340602: Error processing sample 1232: list index out of range
+2025-04-08 12:20:56.285804: Error processing sample 1234: list index out of range
+2025-04-08 12:21:00.288338: Error processing sample 1235: list index out of range
+2025-04-08 12:21:04.293383: Error processing sample 1236: list index out of range
+2025-04-08 12:21:08.300288: Error processing sample 1237: list index out of range
+2025-04-08 12:21:12.310894: Error processing sample 1238: list index out of range
+2025-04-08 12:22:36.482047: Error processing sample 1247: list index out of range
+2025-04-08 12:22:53.845475: Error processing sample 1249: list index out of range
+2025-04-08 12:23:28.410827: Error processing sample 1253: list index out of range
+2025-04-08 12:23:56.675326: Error processing sample 1256: list index out of range
+2025-04-08 12:24:26.510519: Error processing sample 1258: list index out of range
+2025-04-08 12:24:30.513570: Error processing sample 1259: list index out of range
+2025-04-08 12:25:26.631163: Error processing sample 1264: list index out of range
+2025-04-08 12:27:15.689698: Error processing sample 1274: list index out of range
+2025-04-08 12:28:06.522886: Error processing sample 1279: list index out of range
+2025-04-08 12:29:33.627216: Error processing sample 1287: list index out of range
+2025-04-08 12:29:37.628808: Error processing sample 1288: list index out of range
+2025-04-08 12:31:41.957064: Error processing sample 1300: list index out of range
+2025-04-08 12:33:55.308573: Error processing sample 1312: list index out of range
+2025-04-08 12:34:35.448055: Error processing sample 1316: list index out of range
+2025-04-08 12:34:58.353840: Error processing sample 1319: list index out of range
+2025-04-08 12:35:02.356039: Error processing sample 1320: list index out of range
+2025-04-08 12:35:28.844257: Error processing sample 1323: list index out of range
+2025-04-08 12:35:40.851181: Error processing sample 1325: list index out of range
+2025-04-08 12:35:44.853045: Error processing sample 1326: list index out of range
+2025-04-08 12:36:34.501528: Error processing sample 1331: list index out of range
+2025-04-08 12:36:51.508436: Error processing sample 1333: list index out of range
+2025-04-08 12:36:55.510320: Error processing sample 1334: list index out of range
+2025-04-08 12:37:37.891366: Error processing sample 1339: list index out of range
+2025-04-08 12:38:03.256642: Error processing sample 1342: list index out of range
+2025-04-08 12:38:45.000510: Error processing sample 1346: list index out of range
+2025-04-08 12:38:49.002110: Error processing sample 1347: list index out of range
+2025-04-08 12:38:53.003823: Error processing sample 1348: list index out of range
+2025-04-08 12:39:08.976899: Error processing sample 1350: list index out of range
+2025-04-08 12:39:23.550214: Error processing sample 1352: list index out of range
+2025-04-08 12:40:21.747844: Error processing sample 1357: list index out of range
+2025-04-08 12:40:25.749321: Error processing sample 1358: list index out of range
+2025-04-08 12:40:52.864283: Error processing sample 1361: list index out of range
+2025-04-08 12:42:02.027237: Error processing sample 1368: list index out of range
+2025-04-08 12:42:06.028940: Error processing sample 1369: list index out of range
+2025-04-08 12:43:15.503591: Error processing sample 1376: list index out of range
+2025-04-08 12:43:30.620190: Error processing sample 1378: list index out of range
+2025-04-08 12:44:50.611552: Error processing sample 1386: list index out of range
+2025-04-08 12:44:54.613335: Error processing sample 1387: list index out of range
+2025-04-08 12:45:27.888452: Error processing sample 1390: list index out of range
+2025-04-08 12:45:31.891349: Error processing sample 1391: list index out of range
+2025-04-08 12:46:49.210416: Error processing sample 1399: list index out of range
+2025-04-08 12:47:30.016014: Error processing sample 1403: list index out of range
+2025-04-08 12:47:57.983794: Error processing sample 1406: list index out of range
+2025-04-08 12:48:09.327618: Error processing sample 1408: list index out of range
+2025-04-08 12:48:24.059326: Error processing sample 1410: list index out of range
+2025-04-08 12:48:28.061317: Error processing sample 1411: list index out of range
+2025-04-08 12:48:32.075519: Error processing sample 1412: list index out of range
+2025-04-08 12:48:47.603592: Error processing sample 1414: list index out of range
+2025-04-08 12:49:43.446707: Error processing sample 1420: list index out of range
+2025-04-08 12:49:57.485234: Error processing sample 1422: list index out of range
+2025-04-08 12:51:10.779356: Error processing sample 1427: list index out of range
+2025-04-08 12:51:14.780867: Error processing sample 1428: list index out of range
+2025-04-08 12:51:18.782616: Error processing sample 1429: list index out of range
+2025-04-08 12:51:35.294025: Error processing sample 1431: list index out of range
+2025-04-08 12:51:39.295525: Error processing sample 1432: list index out of range
+2025-04-08 12:53:07.802944: Error processing sample 1441: list index out of range
+2025-04-08 12:56:14.232766: Error processing sample 1456: list index out of range
+2025-04-08 12:56:51.720859: Error processing sample 1460: list index out of range
+2025-04-08 12:57:48.688665: Error processing sample 1466: list index out of range
+2025-04-08 12:57:52.692841: Error processing sample 1467: list index out of range
+2025-04-08 12:58:04.878417: Error processing sample 1469: list index out of range
+2025-04-08 12:58:33.460805: Error processing sample 1472: list index out of range
+2025-04-08 13:00:39.230075: Error processing sample 1483: list index out of range
+2025-04-08 13:00:52.724135: Error processing sample 1485: list index out of range
+2025-04-08 13:01:04.369301: Error processing sample 1487: list index out of range
+2025-04-08 13:01:29.691515: Error processing sample 1489: list index out of range
+2025-04-08 13:01:42.364227: Error processing sample 1491: list index out of range
+2025-04-08 13:02:07.053300: Error processing sample 1494: list index out of range
+2025-04-08 13:05:39.229914: Error processing sample 1514: list index out of range
+2025-04-08 13:06:04.962795: Error processing sample 1517: list index out of range
+2025-04-08 13:06:32.602581: Error processing sample 1520: list index out of range
+2025-04-08 13:07:21.884248: Error processing sample 1525: list index out of range
+2025-04-08 13:08:25.240026: Error processing sample 1530: list index out of range
+2025-04-08 13:08:36.520442: Error processing sample 1532: list index out of range
+2025-04-08 13:08:40.521973: Error processing sample 1533: list index out of range
+2025-04-08 13:09:08.100704: Error processing sample 1536: list index out of range
+2025-04-08 13:10:41.658190: Error processing sample 1546: list index out of range
+2025-04-08 13:11:04.657523: Error processing sample 1549: list index out of range
+2025-04-08 13:11:20.344373: Error processing sample 1551: list index out of range
+2025-04-08 13:11:24.348323: Error processing sample 1552: list index out of range
+2025-04-08 13:12:52.337252: Error processing sample 1561: list index out of range
+2025-04-08 13:12:56.338634: Error processing sample 1562: list index out of range
+2025-04-08 13:13:00.340027: Error processing sample 1563: list index out of range
+2025-04-08 13:13:56.774306: Error processing sample 1568: list index out of range
+2025-04-08 13:14:21.411293: Error processing sample 1571: list index out of range
+2025-04-08 13:15:01.596162: Error processing sample 1575: list index out of range
+2025-04-08 13:16:10.407679: Error processing sample 1582: list index out of range
+2025-04-08 13:16:41.964300: Error processing sample 1586: list index out of range
+2025-04-08 13:19:58.351205: Error processing sample 1606: list index out of range
+2025-04-08 13:20:41.468362: Error processing sample 1610: list index out of range
+2025-04-08 13:21:26.964332: Error processing sample 1615: list index out of range
+2025-04-08 13:21:30.965872: Error processing sample 1616: list index out of range
+2025-04-08 13:22:31.912304: Error processing sample 1623: list index out of range
+2025-04-08 13:22:35.914018: Error processing sample 1624: list index out of range
+2025-04-08 13:22:39.978866: Error processing sample 1625: list index out of range
+2025-04-08 13:23:04.897452: Error processing sample 1628: list index out of range
+2025-04-08 13:23:20.260048: Error processing sample 1630: list index out of range
+2025-04-08 13:24:41.010668: Error processing sample 1637: list index out of range
+2025-04-08 13:26:44.489826: Error processing sample 1649: list index out of range
+2025-04-08 13:26:48.491256: Error processing sample 1650: list index out of range
+2025-04-08 13:29:20.758272: Error processing sample 1664: list index out of range
+2025-04-08 13:30:07.403804: Error processing sample 1669: list index out of range
+2025-04-08 13:30:55.121188: Error processing sample 1674: list index out of range
+2025-04-08 13:31:08.347083: Error processing sample 1676: list index out of range
+2025-04-08 13:31:54.263450: Error processing sample 1681: list index out of range
+2025-04-08 13:32:40.266651: Error processing sample 1686: list index out of range
+2025-04-08 13:33:39.511021: Error processing sample 1691: list index out of range
+2025-04-08 13:34:11.965512: Error processing sample 1695: list index out of range
+2025-04-08 13:34:15.968497: Error processing sample 1696: list index out of range
+2025-04-08 13:34:19.974969: Error processing sample 1697: list index out of range
+2025-04-08 13:37:03.711269: Error processing sample 1712: list index out of range
+2025-04-08 13:37:07.712837: Error processing sample 1713: list index out of range
+2025-04-08 13:37:47.189440: Error processing sample 1717: list index out of range
+2025-04-08 13:38:00.256190: Error processing sample 1719: list index out of range
+2025-04-08 13:40:07.560805: Error processing sample 1731: list index out of range
+2025-04-08 13:40:11.580377: Error processing sample 1732: list index out of range
+2025-04-08 13:40:31.793695: Error processing sample 1734: list index out of range
+2025-04-08 13:43:39.966998: Error processing sample 1752: list index out of range
+2025-04-08 13:44:02.868412: Error processing sample 1755: list index out of range
+2025-04-08 13:44:25.541341: Error processing sample 1758: list index out of range
+2025-04-08 13:44:40.537699: Error processing sample 1760: list index out of range
+2025-04-08 13:45:45.203986: Error processing sample 1765: list index out of range
+2025-04-08 13:46:01.346433: Error processing sample 1767: list index out of range
+2025-04-08 13:47:54.877452: Error processing sample 1777: list index out of range
+2025-04-08 13:48:09.193956: Error processing sample 1779: list index out of range
+2025-04-08 13:48:36.398418: Error processing sample 1782: list index out of range
+2025-04-08 13:49:04.593818: Error processing sample 1785: list index out of range
+2025-04-08 13:51:55.575868: Error processing sample 1801: list index out of range
+2025-04-08 13:52:51.442168: Error processing sample 1807: list index out of range
+2025-04-08 13:52:55.443931: Error processing sample 1808: list index out of range
+2025-04-08 13:52:59.445806: Error processing sample 1809: list index out of range
+2025-04-08 13:53:12.433296: Error processing sample 1811: list index out of range
+2025-04-08 13:53:38.764600: Error processing sample 1813: list index out of range
+2025-04-08 13:55:08.489978: Error processing sample 1822: list index out of range
+2025-04-08 13:55:23.250550: Error processing sample 1824: list index out of range
+2025-04-08 13:55:36.181270: Error processing sample 1826: list index out of range
+2025-04-08 13:55:40.183030: Error processing sample 1827: list index out of range
+2025-04-08 13:55:53.046541: Error processing sample 1829: list index out of range
+2025-04-08 13:58:17.190779: Error processing sample 1842: list index out of range
+2025-04-08 13:58:21.192332: Error processing sample 1843: list index out of range
+2025-04-08 13:58:34.820630: Error processing sample 1845: list index out of range
+2025-04-08 13:59:10.173292: Error processing sample 1849: list index out of range
+2025-04-08 14:00:06.293585: Error processing sample 1854: list index out of range
+2025-04-08 14:00:10.295675: Error processing sample 1855: list index out of range
+2025-04-08 14:01:59.939052: Error processing sample 1866: list index out of range
+2025-04-08 14:02:58.263719: Error processing sample 1872: list index out of range
+2025-04-08 14:03:53.549769: Error processing sample 1878: list index out of range
+2025-04-08 14:04:33.653991: Error processing sample 1882: list index out of range
+2025-04-08 14:07:18.013471: Error processing sample 1897: list index out of range
+2025-04-08 14:07:56.120099: Error processing sample 1901: list index out of range
+2025-04-08 14:08:00.122333: Error processing sample 1902: list index out of range
+2025-04-08 14:08:38.191781: Error processing sample 1906: list index out of range
+2025-04-08 14:09:40.389779: Error processing sample 1912: list index out of range
+2025-04-08 14:12:43.985716: Error processing sample 1929: list index out of range
+2025-04-08 14:12:47.987974: Error processing sample 1930: list index out of range
+2025-04-08 14:13:06.561061: Error processing sample 1932: list index out of range
+2025-04-08 14:13:32.194740: Error processing sample 1935: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 27
+}
+]
+2025-04-08 14:13:36.272791: Error processing sample 1936: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 23
+}
+]
+2025-04-08 14:13:40.347737: Error processing sample 1937: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 19
+}
+]
+2025-04-08 14:13:44.411948: Error processing sample 1938: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 15
+}
+]
+2025-04-08 14:13:48.413900: Error processing sample 1939: list index out of range
+2025-04-08 14:13:52.415420: Error processing sample 1940: list index out of range
+2025-04-08 14:13:56.416993: Error processing sample 1941: list index out of range
+2025-04-08 14:14:00.423740: Error processing sample 1942: list index out of range
+2025-04-08 14:14:04.487779: Error processing sample 1943: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 55
+}
+]
+2025-04-08 14:14:08.548411: Error processing sample 1944: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 51
+}
+]
