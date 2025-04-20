@@ -1,0 +1,65 @@
+EX #1:
+Coding Problem: Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.
+Ground Truth Solution:
+class Solution:
+    def removeElement(self, nums: List[int], val: int) -> int:
+        k = 0  # Pointer to track valid elements
+        for i in range(len(nums)):
+            if nums[i] != val:
+                nums[k] = nums[i]  # Move valid element forward
+                k += 1
+        return k  # New length of array
+LLM CoT Steps Breakdown:
+- Understanding Problem Constraints: Identify that the array must be modified in place. Recognize that the order of elements can be changed. Understand the need to return the count of elements that are not equal to the given value.
+- Identifying Potential Pitfalls: Consider edge cases such as an empty array or an array where all elements are the target value. Acknowledge issues related to pointer/index management during in-place modifications.
+- Selecting an Algorithmic Strategy: Think about how a two-pointer approach might help iterate and reorganize the array. Determine how to count non-target elements as you modify the array.
+- Implementing In-Place Modification: Explore how to overwrite or swap elements without additional storage. Focus on ensuring that each valid element is moved to the correct position.
+LLM Questions/Expected Answers:
+LLM: "What does it mean to modify the array in place, and why is this important for the problem?"
+Expected Answer: "It means updating the existing array without allocating extra space for another array, which is crucial for meeting the problem's in-place requirement."
+LLM: "How would you handle edge cases, such as when the array is empty or when every element is the target value?"
+Expected Answer: "If the array is empty, there’s nothing to remove, so the result should be 0. Similarly, if every element equals the target, all should be removed, resulting in a count of 0."
+LLM: "What strategy might you consider to remove the target value without using extra memory?"
+Expected Answer: "I could use a two-pointer technique where one pointer iterates through the array and the other pointer marks the next position to place a non-target element."
+LLM: "How can you keep track of the number of non-target elements as you traverse the array?"
+Expected Answer: "I can use the second pointer as a counter, incrementing it each time a non-target element is placed into the array."
+LLM: "Given that the order of elements can be changed, how might this simplify your solution?"
+Expected Answer: "Since order doesn't matter, I can swap target elements with the last element or overwrite them, which may reduce the number of moves needed and simplify the algorithm."
+
+EX #2:
+Coding Problem: Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
+Ground Truth Solution:
+class Solution:
+    def reverse(self, nums, i, j):
+        li = i
+        ri = j
+        while li < ri:
+            temp = nums[li]
+            nums[li] = nums[ri]
+            nums[ri] = temp
+            li += 1
+            ri -= 1
+    def rotate(self, nums: List[int], k: int) -> None:
+        """Do not return anything, modify nums in-place instead."""
+        k = k % len(nums)
+        if k < 0:
+            k += len(nums)
+        self.reverse(nums, 0, len(nums) - k - 1)
+        self.reverse(nums, len(nums) - k, len(nums) - 1)
+        self.reverse(nums, 0, len(nums) - 1)
+LLM CoT Steps Breakdown:
+- Understanding the Problem Requirements: Recognize that the task is to rotate the array to the right by k steps. Understand that "rotating" means shifting every element to the right with the last elements wrapping around to the front.
+- Handling Special Conditions: Consider cases where k is greater than the length of the array by using modulo operations. Account for edge cases like an empty array or when k is 0.
+- Choosing an In-Place Algorithm: Consider approaches such as the reversal algorithm that allows the rotation to be performed in-place with O(1) extra space. Evaluate the two-phase reversal process: reversing the entire array, then reversing the first k elements and the remaining elements separately.
+- Implementation Considerations: Ensure proper index calculations when reversing parts of the array.
+LLM Questions/Expected Answers:
+LLM: "What does it mean to rotate the array to the right by k steps, and what happens to the elements during this process?"
+Expected Answer: "Rotating the array to the right by k steps means moving every element in the array k positions to the right, and the elements at the end wrap around to the beginning of the array."
+LLM: "If k is greater than the length of the array, what should you consider, and how can you adjust k accordingly?"
+Expected Answer: "I should consider that rotating by more than the length of the array is redundant; therefore, I can use k modulo the array's length to determine the effective number of rotations needed."
+LLM: "Can you think of an in-place approach to perform the rotation without using extra space, and how does it work?"
+Expected Answer: "One in-place approach is the reversal algorithm: first, reverse the entire array; then, reverse the first k elements and the remaining n-k elements separately to achieve the rotated array."
+LLM: "What edge cases should you handle, and how would they affect your solution?"
+Expected Answer: "Edge cases include when the array is empty or when k is 0, in which case the array remains unchanged."
+LLM: "While implementing the reversal algorithm, what challenges might you face with array indexing, and how can you address them?"
+Expected Answer: "I might face challenges in correctly calculating the start and end indices for each reversal. Careful index management is essential."
