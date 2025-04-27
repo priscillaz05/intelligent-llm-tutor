@@ -14,7 +14,8 @@ if __name__ == "__main__":
     with open('coding_question.txt', 'r') as file:
         coding_question = file.read()
 
-    confusion_generation_prompt = f"{confusion_prompt} \n\n {coding_question}"
+    # only gives student QUESTION, no ground truth solution
+    confusion_generation_prompt = f"{confusion_prompt}. Please generate a list of questions. \n\n 'Coding Problem: Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.'"
 
     model = genai.GenerativeModel(model_name="gemini-2.0-flash")
 
@@ -33,6 +34,7 @@ if __name__ == "__main__":
     print(help.text)
 
     output_data = {
+    'access_to_solution': "false",
     'coding_question': coding_question,
     'confusions': confusions.text,
     'help': help.text
@@ -49,6 +51,7 @@ if __name__ == "__main__":
 
     output_filename = f"result_{timestamp}.txt"
     with open(output_filename, 'w') as txt_file:
+        txt_file.write("Restricted student's access to ground truth solution.\n")
         txt_file.write(coding_question + "\n\n")
 
         txt_file.write("Confusions:\n")
