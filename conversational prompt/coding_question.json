@@ -1,0 +1,4 @@
+{
+    "coding_problem": "Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. \nThe order of the elements may be changed. Then return the number of elements in nums which are not equal to val.",
+    "ground_truth_solution": "class Solution:\n    def removeElement(self, nums: List[int], val: int) -> int:\n        k = 0  # Pointer to track valid elements\n        for i in range(len(nums)):\n            if nums[i] != val:\n                nums[k] = nums[i]  # Move valid element forward\n                k += 1\n        return k  # New length of array"
+}
