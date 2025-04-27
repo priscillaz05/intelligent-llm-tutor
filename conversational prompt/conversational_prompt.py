@@ -1,9 +1,11 @@
+# TODO: include TACO. iterate through the first 10 questions of TACO. 
+
 import google.generativeai as genai
 import json
 import time
 
 if __name__ == "__main__":
-    api_key = ""
+    api_key = "AIzaSyBgsBHalFqsEIedpRUBS1S__3zd2W0FrOs"
     genai.configure(api_key=api_key)
 
     with open('confusion_generation_prompt.txt', 'r') as file:
@@ -41,5 +43,18 @@ if __name__ == "__main__":
 
     with open(output_filename, 'w') as json_file:
         json.dump(output_data, json_file, indent=4)
+
+    print(f"Response saved to {output_filename}")
+
+
+    output_filename = f"result_{timestamp}.txt"
+    with open(output_filename, 'w') as txt_file:
+        txt_file.write(coding_question + "\n\n")
+
+        txt_file.write("Confusions:\n")
+        txt_file.write(confusions.text + "\n\n")
+
+        txt_file.write("Help:\n")
+        txt_file.write(help.text + "\n")
 
     print(f"Response saved to {output_filename}")
